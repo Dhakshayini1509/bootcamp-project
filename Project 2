@@ -1,0 +1,3 @@
+import hashlib
+print(hashlib.md5(b"Hello MD5").hexdigest())
+print(hashlib.md5("Hello MD5".encode('utf-8')).hexdigest())
